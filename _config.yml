@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Chess TV
+email: alex@chesstv.org
+description: > # this means to ignore newlines until "baseurl:"
+  Chess TV: Game of the Day delivers the very best chess games
+  from all over the world, directly to you, right on your TV.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://chesstv.org" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  chesstv
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,46 @@
+---
+---
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+.home h1 {
+  font-weight: bold;
+  font-size: 400%;
+
+  small {
+    margin-top: -15px;
+    display: block;
+    font-weight: normal;
+    font-size: 40%;
+    opacity: 0.6;
+  }
+}
+
+.home {
+  text-align: center;
+}
+
+.home__board {
+  img {
+    width: 500px;
+    opacity: 0.6;
+  }
+  
+  padding: 10px;
+}
+
+.home__download_button {
+  img {
+    width: 300px;
+  }
+
+  padding: 20px;
+}
+
+.home__tagline {
+  margin-bottom: 0px;
+
+  font-weight: bold;
+}
