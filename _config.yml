@@ -9,7 +9,7 @@
 title: Chess TV
 email: alex@chesstv.org
 description: > # this means to ignore newlines until "baseurl:"
-  Chess TV: Game of the Day delivers the very best chess games
+  Chess TV delivers the very best chess games
   from all over the world, directly to you, right on your TV.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://chesstv.org" # the base hostname & protocol for your site

@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Chess TV is the future home of all your favourite TV chess products.
+Our mission is to bring high quality chess content to your living room.
 
-Our latest and first (!) installment "Game of the Day" delivers the very best chess games from all over the world, 
-directly to you, right on your TV.
+Chess is desparately lacking modern platforms, especially for video. We are going to change that, helping chess enthusiasts and pro content creators alike get their voices heard. 
+
+We want you to be able to view all of your favourite games, video tutorials, and community created content without leaving the comforts of your living room sofa.
+
+We hope you will join us on this mission and together improve the world of chess!
