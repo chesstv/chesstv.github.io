@@ -20,11 +20,20 @@ body {
 
 .home {
   text-align: center;
+  width: 45em;
+}
+
+#home__board {
+  float: left;
+}
+
+#home__copy {
+  float: right;
 }
 
 .home__board {
   img {
-    width: 500px;
+    width: 18em;
     opacity: 0.6;
   }
   
