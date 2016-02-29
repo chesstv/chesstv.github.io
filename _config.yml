@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   from all over the world, directly to you, right on your TV.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tvchess.com" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username: tvchessapp
 github_username:  
 
 # Build settings
