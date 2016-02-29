@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Chess TV
-email: alex@chesstv.org
+title: TV Chess
+email: alex@tvchess.com
 description: > # this means to ignore newlines until "baseurl:"
   Chess TV delivers the very best chess games
   from all over the world, directly to you, right on your TV.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://chesstv.org" # the base hostname & protocol for your site
+url: "http://tvchess.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  chesstv
 
