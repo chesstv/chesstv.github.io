@@ -9,11 +9,12 @@ layout: default
   </div>
 
   <div id="home__copy">
-    <h1>TV Chess<small>Relax and watch some chess.</small></h1>
+    <h1>TV Chess<small>Watch and learn</small></h1>
 
     <div class="home__download_button">
-      <p>Coming soon on the app store...</p>
+      <img id="download-button" src="/images/download-on-the-app-store.png" alt="Download TV Chess for Apple TV" title="Search for 'TV Chess' on the Apple TV App Store to download" />
     </div>
+    <p>Only on Apple TV</p>
   </div>
 </div>
 
@@ -22,6 +23,11 @@ layout: default
   window.onload = function() {
     var img = document.getElementById("landing-image");
     img.src = "/images/polished-game-animation.gif"
+  }
+
+  var button = document.getElementById("download-button")
+  button.onclick = function() {
+    alert("Search for 'TV Chess' on the Apple TV App Store to download. Thank you!")
   }
   //-->
 </script>
