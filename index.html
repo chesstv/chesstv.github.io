@@ -1,34 +1,76 @@
 ---
 layout: default
 ---
-<div class="home">
-  <div id="home__board">
-    <div class="home__board">
-      <img id="landing-image" src="/images/standard-board-500.png" />
-    </div>
-  </div>
-
+<header id="home">
   <div id="home__copy">
     <h1>TV Chess<small>Watch and learn</small></h1>
+  </div>
+</header>
 
-    <div class="home__download_button">
-      <img id="download-button" src="/images/download-on-the-app-store.png" alt="Download TV Chess for Apple TV" title="Search for 'TV Chess' on the Apple TV App Store to download" />
-    </div>
-    <p>Only on Apple TV</p>
+<p id="video_preview">
+<a id="play_video" href="#video_modal">
+    <img src="/images/apple-tv1280-video-placeholder.png" title="Video preview and screenshots" alt="Video previews and screenshots embedded on Apple TV" />
+  </a>
+</p>
+
+<div class="home__download_button">
+  <img id="download-button" src="/images/download-on-the-app-store.png" alt="Download TV Chess for Apple TV" title="Search for 'TV Chess' on the Apple TV App Store to download" />
+</div>
+<!-- Begin MailChimp Signup Form -->
+
+<div id="mailing_list">
+  <h2>Join our mailing list</h2>
+  <!-- Begin MailChimp Signup Form -->
+  <style type="text/css">
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  <div id="mc_embed_signup">
+  <form action="//tvchess.us13.list-manage.com/subscribe/post?u=cc81c7f2820b379bfd3b3f9d7&amp;id=8e57d7427d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+          
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc81c7f2820b379bfd3b3f9d7_8e57d7427d" tabindex="-1" value=""></div>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email address..." required>
+      <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Subscribe!</button>
+      </div>
+  </form>
   </div>
 </div>
 
+<!--End mc_embed_signup-->
+
+<div id="video_modal" class="dialog_modal">
+  <div>
+    <video id="marketing_video" src="/marketing-video.mp4" controls>
+      Your browser does not support the <code>video</code> element.
+    </video>
+
+    <a href="#close" class="close" title="Close">X</a>
+  </div>
+</div>
+
+
 <script type="text/javascript">
   <!--
-  window.onload = function() {
-    var img = document.getElementById("landing-image");
-    img.src = "/images/polished-game-animation.gif"
+
+  var playVideo = function() {
+      $("#marketing_video").get(0).play();
   }
 
-  var button = document.getElementById("download-button")
-  button.onclick = function() {
-    alert("Search for 'TV Chess' on the Apple TV App Store to download. Thank you!")
+  var stopVideo = function() {
+    $("#marketing_video").get(0).pause();
   }
+
+  $("#play_video").on("click", function() {
+      playVideo();
+  });
+
+  $("#close").on("click", function() {
+      stopVideo();
+      return false;
+  });
+
   //-->
 </script>
 
